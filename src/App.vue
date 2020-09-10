@@ -14,6 +14,7 @@
                     >
 
                         <ChatDialog :messages="messages"/>
+
                     </v-responsive>
                 </v-col>
             </v-row>
