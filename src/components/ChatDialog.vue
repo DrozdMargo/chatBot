@@ -1,7 +1,7 @@
 <template>
     <v-card
             flat
-            class="d-flex flex-column fill-height">
+            class="d-flex flex-column fill-height pa-3">
         <v-card-title>
             Let's talk
         </v-card-title>
@@ -31,7 +31,7 @@
                     @keyup.enter="send"
                     hide-details
             />
-            <v-btn @click="send" color="primary" :disabled="finishChat">
+            <v-btn @click="send" color="primary" :disabled="finishChat" class="ma-3">
                 {{btnText}}
             </v-btn>
         </v-card-actions>
@@ -108,7 +108,7 @@
 </script>
 
 <style scoped>
-  
+
     .him.typing {
         background: #eee;
     }
